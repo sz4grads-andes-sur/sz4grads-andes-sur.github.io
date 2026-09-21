@@ -1,0 +1,9 @@
+schema: hugoblox/author/v1
+slug: constanza-santori
+name:
+  display: Constanza Santori
+  given: Constanza
+  family: Santori
+role: Comité Ejecutivo
+user_groups:
+  - Comité Ejecutivo

@@ -11,14 +11,10 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: ''
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
       headings:
-        about: ''
+        about: 'Quiénes somos'
         education: ''
-        interests: ''
+        interests: 'Intereses'
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
@@ -35,75 +31,60 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'Sobre nosotros'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        Subductions Zones for Grad Students and Graduates (SZ4Grads) Andes Sur es una red de jóvenes geocientistas de Latinoamérica investigando zonas de subducción. Somos parte de una comunidad mayor cuyo interés es la búsqueda de los orígenes, historia y evolución de las zonas de subducción, áreas de la Tierra donde se destruyen las placas tectónicas, se forman montañas y ocurren sismos de gran magnitud.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        Como geocientistas latinoamericanos, estamos particularmente interesados en comprender cómo se construyó la Cordillera de los Andes y cómo se comportan e interactúan los sistemas asociados a estas (volcanes, etc). Así como la generación de grandes cantidades de datos y conocimiento vinculado a los estudios de peligros geológicos y las interacciones ambiente-sociedad, componentes claves de la gestión y mitigación de riesgos.
 
-        Please reach out to collaborate 😃
+        En términos generales, SZ4Grads Andes Sur es una plataforma coordinada para conectar, intercambiar y construir conocimiento de alto nivel académico en un ambiente de igualdad, respeto, transparencia humana y colaboración mutua.
     design:
       columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-  - block: collection
+  # Ocultos por ahora: Featured/Recent Publications y Recent & Upcoming Talks
+  # - block: collection
+  #   id: papers
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publications
+  #       featured_only: true
+  #   design:
+  #     view: article-grid
+  #     columns: 2
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: ''
+  #     filters:
+  #       folders:
+  #         - publications
+  #       exclude_featured: false
+  #   design:
+  #     view: citation
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - events
+  #   design:
+  #     view: card
+  - block: markdown
     id: news
     content:
-      title: Recent News
+      title: Noticias
       subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 10
-      # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+      text: |-
+        Nuestras últimas publicaciones en Instagram. Síguenos en [@sz4grads_andessur](https://www.instagram.com/sz4grads_andessur/).
+
+        <div style="display:flex;justify-content:center">
+          <iframe src="https://www.instagram.com/sz4grads_andessur/embed/" title="Instagram de SZ4Grads Andes Sur" width="540" height="640" style="max-width:100%;border:0" scrolling="no" loading="lazy"></iframe>
+        </div>
     design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      columns: '1'
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:

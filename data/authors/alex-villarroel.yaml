@@ -1,0 +1,9 @@
+schema: hugoblox/author/v1
+slug: alex-villarroel
+name:
+  display: Alex Villarroel
+  given: Alex
+  family: Villarroel
+role: Comité Ejecutivo
+user_groups:
+  - Comité Ejecutivo

@@ -1,0 +1,9 @@
+schema: hugoblox/author/v1
+slug: camila-arrospide
+name:
+  display: Camila Arróspide
+  given: Camila
+  family: Arróspide
+role: Comité Ejecutivo
+user_groups:
+  - Comité Ejecutivo

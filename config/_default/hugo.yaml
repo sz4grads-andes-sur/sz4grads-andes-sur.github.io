@@ -61,5 +61,8 @@ markup:
     lineNos: false
 security:
   _merge: deep
+  exec:
+    # Hugo >= 0.165 no incluye tailwindcss en la lista por defecto
+    allow: ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^node$', '^npx$', '^postcss$', '^tailwindcss$']
 sitemap:
   _merge: deep

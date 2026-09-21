@@ -1,0 +1,9 @@
+schema: hugoblox/author/v1
+slug: valeria-becerra
+name:
+  display: Valeria Becerra Carreño
+  given: Valeria
+  family: Becerra Carreño
+role: Comité Ejecutivo
+user_groups:
+  - Comité Ejecutivo
