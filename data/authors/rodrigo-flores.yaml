@@ -1,0 +1,9 @@
+schema: hugoblox/author/v1
+slug: rodrigo-flores
+name:
+  display: Rodrigo Flores Allende
+  given: Rodrigo
+  family: Flores Allende
+role: Comité Ejecutivo
+user_groups:
+  - Comité Ejecutivo
