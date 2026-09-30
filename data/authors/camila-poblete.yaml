@@ -1,0 +1,9 @@
+schema: hugoblox/author/v1
+slug: camila-poblete
+name:
+  display: Camila Poblete González
+  given: Camila
+  family: Poblete González
+role: Comité Ejecutivo
+user_groups:
+  - Comité Ejecutivo
